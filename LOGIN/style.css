@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ font-family: 'IBM Plex Sans', sans-serif;
+}
+/* main */
+.main{
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-top: 2rem;
+    /* border: #1676F3 solid 1px; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        padding: 1rem;
+}
+
+/* heading */
+.h1{
+    font-family: 'Inter', sans-serif;
+    color: #1676F3;
+    font-size: 40px;
+    font-weight: 400;
+}
+/* .h3{
+    font-size: 22px;
+} */
+
+/* image */
+.front img{
+    width: 8vw;
+    height: auto;
+    margin: 0 0 1rem 0;
+}
+.front .p{
+    font-size: 14px;
+}
+.front{
+    margin-bottom: 1rem;
+}
+/* input section */
+input  {
+    padding: .5rem 1rem;
+    width: 16.5rem;    
+    outline: none;
+    /* margin-bottom: 1rem; */
+
+}
+.input label{
+    float: left;
+    margin-left:.2rem ;
+    color: #1B2B41;
+    font-size: 14px;
+}
+.input .email {
+    margin-bottom: 1rem;
+}
+.input a{
+    padding-bottom: 1rem;
+    text-decoration: none;
+    float: right;
+    margin-right: 1rem;
+    color: #1676F3;
+    font-size: 14px;
+}
+/* footer section or signup part */
+.button{
+    margin-top: 1rem;
+
+}
+.button .btn Button{
+    width: 16.5rem;
+    height: 2.5rem ;
+    color: #fff;
+    background-color: #1676F3;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button .btn Button:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.signup{
+    margin: 1rem  0 ;
+    font-size: 14px;
+
+}
+.signup a{
+    text-decoration: none;
+    color: #1676F3;
+    
+}
