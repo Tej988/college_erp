@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+.part1{
+    border: 1px solid #4895EF;
+    background-color: #F72585;
+    color: #fff;
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+    margin: 2rem;
+    padding: 1rem;
+}
+.part2 ul{
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    word-spacing: 1rem;
+    
+  
+}
+.part2 .card{
+   margin-left: 2rem;
+    padding: 2rem;
+    
+   
+}
+.part2 .card ul li {
+    margin-right: 2rem;
+    font-family: 500;
+}
+.part2 .card {
+    
+    display: flexbox;
+    
+   
+    
+}
